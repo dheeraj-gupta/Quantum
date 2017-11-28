@@ -12,5 +12,4 @@ ng new classinfo-app --minimal --dry-run
 
 ng new classinfo-app --minimal
 
-ng build
-ng serve
+ng build -- watch

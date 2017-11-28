@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum", "Quantum.WebAPI\Quantum.csproj", "{2DDE867A-967E-49B2-B053-B2820F980B79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quantum", "Quantum\Quantum.csproj", "{2DDE867A-967E-49B2-B053-B2820F980B79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

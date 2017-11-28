@@ -12607,11 +12607,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Quantum-API\\Quantum.WebAPI\\Quantum.WebAPI\\Quantum.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Documents\\GitHub\\Quantum\\Quantum\\Quantum\\Quantum.csproj",
       "projectName": "Quantum",
-      "projectPath": "D:\\Quantum-API\\Quantum.WebAPI\\Quantum.WebAPI\\Quantum.csproj",
+      "projectPath": "C:\\Users\\Dell\\Documents\\GitHub\\Quantum\\Quantum\\Quantum\\Quantum.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Quantum-API\\Quantum.WebAPI\\Quantum.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Documents\\GitHub\\Quantum\\Quantum\\Quantum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

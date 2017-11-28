@@ -1,0 +1,81 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading">
+        {{pageTitle}}
+    </div>
+    <div class="panel-body">
+        <form class="form-horizontal"
+              novalidate
+              (ngSubmit)="saveClasses()"
+              [formGroup]="classesForm">
+            <fieldset>
+                <div class="form-group"
+                     [ngClass]="{'has-error': displayMessage.className }">
+                    <label class="col-md-2 control-label" for="classNameId">Class Name</label>
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="classNameId"
+                               type="text"
+                               placeholder="className (required)"
+                               formControlName="className" />
+                        <span class="help-block" *ngIf="displayMessage.className">
+                            {{displayMessage.className}}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group"
+                     [ngClass]="{'has-error': displayMessage.location}">
+                    <label class="col-md-2 control-label" for="locationId">location</label>
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="locationId"
+                               type="text"
+                               placeholder="location (required)"
+                               formControlName="location" />
+                        <span class="help-block" *ngIf="displayMessage.location">
+                            {{displayMessage.location}}
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group" [ngClass]="{'has-error': displayMessage.teacherName}">
+                    <label class="col-md-2 control-label" for="teacherNameId">Teacher Name</label>
+                    <div class="col-md-8">
+                        <input class="form-control"
+                               id="teacherNameId"
+                               type="text"
+                               placeholder="Teacher Name"
+                               formControlName="teacherName" />
+                        <span class="help-block" *ngIf="displayMessage.teacherName">
+                            {{displayMessage.teacherName}}
+                        </span>
+                    </div>
+                </div>
+
+               
+              
+                <div class="form-group">
+                    <div class="col-md-4 col-md-offset-2">
+                        <span>
+                            <button class="btn btn-primary"
+                                    type="submit"
+                                    style="width:80px;margin-right:10px"
+                                    [disabled]='!classesForm.valid'>
+                                Save
+                            </button>
+                        </span>
+                        <span>
+                            <a class="btn btn-default"
+                               style="width:80px"
+                               [routerLink]="['classes']">
+                                Cancel
+                            </a>
+                        </span>
+                       
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class='has-error' *ngIf='errorMessage'>{{errorMessage}}</div>
+    </div>
+</div>

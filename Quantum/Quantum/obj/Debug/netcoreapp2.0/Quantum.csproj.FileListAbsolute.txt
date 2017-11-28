@@ -1,0 +1,11 @@
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\bin\Debug\netcoreapp2.0\Quantum.deps.json
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\bin\Debug\netcoreapp2.0\Quantum.runtimeconfig.json
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\bin\Debug\netcoreapp2.0\Quantum.runtimeconfig.dev.json
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\bin\Debug\netcoreapp2.0\Quantum.dll
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\bin\Debug\netcoreapp2.0\Quantum.pdb
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\obj\Debug\netcoreapp2.0\Quantum.csprojResolveAssemblyReference.cache
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\obj\Debug\netcoreapp2.0\Quantum.csproj.CoreCompileInputs.cache
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\obj\Debug\netcoreapp2.0\Quantum.AssemblyInfoInputs.cache
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\obj\Debug\netcoreapp2.0\Quantum.AssemblyInfo.cs
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\obj\Debug\netcoreapp2.0\Quantum.dll
+D:\Quantum-API\Quantum.WebAPI\Quantum.WebAPI\obj\Debug\netcoreapp2.0\Quantum.pdb

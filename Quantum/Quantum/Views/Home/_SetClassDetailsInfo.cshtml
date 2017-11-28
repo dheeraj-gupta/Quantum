@@ -1,0 +1,54 @@
+﻿@model Quantum.WebAPI.ViewModels.ClassDetailViewModel
+
+@section scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<div class="panel panel-primary ">
+    <div class="panel-body">
+        <div class="col-sm-9 col-md-9 container-fluid ">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.LabelFor(m => m.StudentFirstName)
+                </div>
+                
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.TextBoxFor(m => m.StudentFirstName)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.LabelFor(m => m.StudentLastName)
+                </div>
+
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.TextBoxFor(m => m.StudentLastName)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.LabelFor(m => m.Age)
+                </div>
+
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.TextBoxFor(m => m.Age)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.LabelFor(m => m.GPA)
+                </div>
+
+                <div class="col-sm-6 col-md-6 ">
+                    @Html.TextBoxFor(m => m.GPA)
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-3 col-md-3">
+            <button type="button" id="addClassDetails" class="btn btn-sm btn-primary">Add ClassDetails</button>
+        </div>
+    </div>
+</div>

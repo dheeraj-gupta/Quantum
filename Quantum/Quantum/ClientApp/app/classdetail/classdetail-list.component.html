@@ -1,0 +1,58 @@
+﻿
+<div class="ClassesView" id="">
+    <table class="table table-bordered table-hover">
+        <thead >
+            <tr>
+                <th>
+                    ClassName
+                </th>
+                <th>
+                    StudentFirstName
+                </th>
+                <th>
+                    StudentLastName
+                </th>
+                <th>
+                    GPA
+                </th>
+                <th>
+                    Age
+                </th>
+            </tr>
+        </thead>
+        <tbody >
+
+
+            <tr *ngFor="let c of classDetail">
+                <td>
+                    {{c.className}}
+                </td>
+                <td>
+                    {{c.studentFirstName}}
+                </td>
+                <td>
+                    {{c.studentLastName}}
+                </td>
+                <td>
+                    {{c.gpa}}
+                </td>
+                <td>
+                    {{c.age}}
+                </td>
+            </tr>
+
+        <tbody>
+    </table>
+    <div class='row'>
+        <div class="col-md-4 col-md-offset-2">
+            <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+                <i class='glyphicon glyphicon-chevron-left'></i> Back
+            </a>
+        </div>
+       <div class="col-md-4 col-md-offset-2">
+           <a class='btn btn-default' (click)='addClassDetail()'>
+               <i class='glyphicon glyphicon-save'></i> Add ClassDetail
+           </a>
+       </div>
+    </div>
+</div>

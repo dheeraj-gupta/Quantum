@@ -1,0 +1,41 @@
+﻿@model List<Quantum.WebAPI.ViewModels.ClassDetailViewModel>
+<div class="ClassesView" id="">
+    <table class="table table-bordered ">
+        <thead class="columnbgcolour">
+            <tr>
+                <th>
+                    StudentFirstName
+                </th>
+                <th>
+                    StudentLastName
+                </th>
+                <th>
+                    GPA
+                </th>
+                <th>
+                    Age
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        @item.StudentFirstName
+                    </td>
+                    <td>
+                        @item.StudentLastName
+                    </td>
+                    <td>
+                        @item.GPA
+                    </td>
+                    <td>
+                        @item.Age
+                    </td>
+                </tr>
+            }
+        <tbody>
+    </table>
+</div>

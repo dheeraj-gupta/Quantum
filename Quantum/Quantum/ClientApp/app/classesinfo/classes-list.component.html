@@ -1,0 +1,37 @@
+﻿
+<div class="ClassesView" id="">
+    <table class="table table-condensed table-hover">
+        <thead >
+            <tr>
+                <th>
+                    ClassName
+                </th>
+                <th>
+                    Location
+                </th>
+                <th>
+                    TeacherName
+                </th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr *ngFor="let c of classes">
+                <td>
+                   <a [routerLink]="['classdetail', c.className]">{{c.className}}</a> 
+                </td>
+                <td>
+                    {{c.location}}
+                </td>
+                <td>
+                    {{c.teacherName}}
+                </td>
+            </tr>
+           
+        <tbody>
+    </table>
+    <div class=''>
+        <a class='btn btn-default' (click)='addClasses()'>
+            <i class='glyphicon glyphicon-save'></i> Add Classes
+        </a>
+    </div>
+</div>
